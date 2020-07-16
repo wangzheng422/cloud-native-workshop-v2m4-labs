@@ -16,7 +16,7 @@
         "angular-route": "1.5.10",
         "keycloak": "1.9.8"
     },
-    "resolutions": {
+    "dependencies": {
         "angular": "1.5.10",
         "jquery": "3.4.1",
         "bootstrap": "~3.3.7"
