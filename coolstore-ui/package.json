@@ -34,6 +34,6 @@
   },
   "scripts": {
     "nodeshift": "nodeshift",
-    "postinstall": "node_modules/.bin/bower install"
+    "postinstall": "bower install"
   }
 }
