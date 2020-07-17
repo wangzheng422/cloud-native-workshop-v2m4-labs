@@ -38,6 +38,13 @@ app.use('/app', express.static(path.join(__dirname, '/app')));
 app.use('/bower_components', express.static(path.join(__dirname, '/bower_components')));
 app.use('/node_modules', express.static(path.join(__dirname, '/node_modules')));
 
+app.use('/jquery-dist-3.4.1', express.static(path.join(__dirname, '/jquery-dist-3.4.1')));
+app.use('/bower-angular-1.5.10', express.static(path.join(__dirname, '/bower-angular-1.5.10')));
+app.use('/bower-angular-route-1.5.10', express.static(path.join(__dirname, '/bower-angular-route-1.5.10')));
+app.use('/bower-angular-sanitize-1.5.10', express.static(path.join(__dirname, '/bower-angular-sanitize-1.5.10')));
+app.use('/imagesloaded-4.1.1', express.static(path.join(__dirname, '/imagesloaded-4.1.1')));
+app.use('/keycloak-js-bower-1.9.8', express.static(path.join(__dirname, '/keycloak-js-bower-1.9.8')));
+
 console.log("coolstore config: " + JSON.stringify(coolstoreConfig));
 console.log("keycloak config: " + JSON.stringify(keycloakConfig));
 
