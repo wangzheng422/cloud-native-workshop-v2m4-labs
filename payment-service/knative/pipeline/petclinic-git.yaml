@@ -1,0 +1,11 @@
+apiVersion: tekton.dev/v1alpha1
+kind: PipelineResource
+metadata:
+  name: petclinic-git
+spec:
+  type: git
+  params:
+  - name: url
+    value: http://gogs.redhat.ren:10080/root/spring-petclinic
+  - name: revision
+    value: main
